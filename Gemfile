@@ -16,7 +16,7 @@ gem 'jquery-rails'
 gem "sprockets-rails"
 
 # Use pg as the database for Active Record
-gem 'pg'
+gem 'pg', '~> 1.4.3'
 
 gem 'activeadmin'
 
