@@ -1,8 +1,6 @@
+#!/usr/bin/env bash
+# exit on error
 set -o errexit
-
-sudo gem install bundler -v 2.2.4
-sudo msfdb reinit
-sudo msfconsole
 
 bundle install
 yarn install
